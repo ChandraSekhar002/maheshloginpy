@@ -1,0 +1,3 @@
+[console_scripts]
+Pythonwebsample-main = loginpage:app
+

@@ -18,7 +18,7 @@ class User(db.Model):
     password = db.Column(db.String(255), nullable=False)
 
 # Registration route
-@app.route('/register', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
         email = request.form.get('email')
